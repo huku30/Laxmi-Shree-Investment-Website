@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.laxmishreeinvestment.com
+
+# Sitemaps
+Sitemap: https://www.laxmishreeinvestment.com/sitemap.xml
