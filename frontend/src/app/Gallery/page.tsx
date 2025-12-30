@@ -44,7 +44,7 @@ export default function Gallery() {
           
           {/* Description */}
           <p className="text-[#35115F] text-lg md:text-lg font-medium leading-[155%] tracking-[0.36px]   md:max-w-[1185px]">
-            Step into our gallery and relive the cherished moments, achievements, and  memories that define the Laxmi Shree Investment family.
+            Step into our gallery and relive the cherished moments, achievements, and joyful memories that define the Laxmi Shree Investment family.
           </p>
         </div>
 
