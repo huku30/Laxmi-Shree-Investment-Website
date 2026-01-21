@@ -1,0 +1,6 @@
+# Cloudflare Pages local development environment variables
+# Copy this file to .dev.vars and add your values
+
+# Example:
+# DATABASE_URL=your_database_url
+# API_KEY=your_api_key
