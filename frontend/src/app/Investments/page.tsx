@@ -101,6 +101,7 @@ const investments = [
     readMoreUrl: "#",
     pdfFileName: "ramailo-likhu-hydropower.pdf"
   }
+
 ];
 
 export default function InvestmentsPage() {
