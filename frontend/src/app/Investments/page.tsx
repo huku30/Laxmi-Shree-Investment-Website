@@ -103,7 +103,7 @@ const investments = [
   },
   {
     logoUrl: "Invested_Company_Logo/godrive.png",
-    companyName: "Go Drive.",
+    companyName: "Go Drive",
     description: "Providing reliable and affordable car servicing solutions that ensure vehicle safety, optimal performance, and long-term customer trust.",
     readMoreUrl: "#",
     pdfFileName: "go-drive.pdf"
