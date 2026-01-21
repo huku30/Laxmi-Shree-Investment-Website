@@ -100,6 +100,13 @@ const investments = [
     description: "Developing sustainable hydroelectric projects that contribute to Nepal's energy security while promoting environmental conservation and community development initiatives.",
     readMoreUrl: "#",
     pdfFileName: "ramailo-likhu-hydropower.pdf"
+  },
+  {
+    logoUrl: "Invested_Company_Logo/godrive.png",
+    companyName: "Go Drive.",
+    description: "Developing sustainable hydroelectric projects that contribute to Nepal's energy security while promoting environmental conservation and community development initiatives.",
+    readMoreUrl: "#",
+    pdfFileName: "go-drive.pdf"
   }
 
 ];
