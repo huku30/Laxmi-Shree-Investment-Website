@@ -8,7 +8,6 @@
     "start": "next start",
     "lint": "next lint",
     "export": "next export",
-    "pages:build": "npx @cloudflare/next-on-pages",
     "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
     "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
     "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts"
@@ -22,7 +21,6 @@
     "tailwind-merge": "^3.3.1"
   },
   "devDependencies": {
-    "@cloudflare/next-on-pages": "^1.13.15",
     "@eslint/eslintrc": "^3",
     "@opennextjs/cloudflare": "latest",
     "@tailwindcss/postcss": "^4",
@@ -34,5 +32,8 @@
     "tailwindcss": "^4",
     "typescript": "^5",
     "wrangler": "latest"
+  },
+  "overrides": {
+    "esbuild": "0.25.0"
   }
 }
