@@ -8,7 +8,6 @@ import LogoCarousel from "./sections/Carousel/carousel"
 import MessageFromOurFounderPage from "./sections/FounderMessage/founderMessagePage"
 import InvestmentsSection from "./sections/Investment/investmentSection"
 import Footer from "./components/Footer"
-export const runtime = "edge";
 
 export default function Main(){
   return(

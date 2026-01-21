@@ -4,7 +4,7 @@
 import VisionCard from "@/app/components/Vision";
 import visionData from "@/app/data/vision.json";
 import Image from "next/image";
-export const runtime = "edge";
+
 export default function VisionPage() {
   const getIcon = async (iconPath: string, title: string) => {
     try {

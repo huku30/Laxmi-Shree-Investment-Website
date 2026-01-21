@@ -5,8 +5,6 @@ import Image from "next/image";
 import MainLogo from "../assets/icons/MainLogo.svg";
 import { useState, useEffect } from "react";
 
-export const runtime = "edge";
-
 // Mail Icon
 const MailIcon = () => (
   <svg 

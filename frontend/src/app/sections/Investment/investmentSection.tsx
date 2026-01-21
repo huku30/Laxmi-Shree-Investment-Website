@@ -6,7 +6,7 @@ import { useState } from "react";
 import InvestmentCard from "@/app/components/InvestmentCard";
 import CTAButton from "@/app/components/InvestmentButton";
 import Navbar from "@/app/components/Navbar";
-export const runtime = "edge";
+
 interface Investment {
   id: number;
   title: string;

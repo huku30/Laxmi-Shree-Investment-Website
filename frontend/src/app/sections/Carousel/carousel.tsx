@@ -6,8 +6,6 @@ import Image from "next/image";
 import portfolioData from "@/app/data/carousel.json";
 import styles from './carousel.module.css';
 
-export const runtime = "edge";
-
 export default function LogoCarousel() {
   const { portfolioCompanies } = portfolioData;
 

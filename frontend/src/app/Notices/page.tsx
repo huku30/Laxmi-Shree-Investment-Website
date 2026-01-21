@@ -1,8 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-export const runtime = "edge";
-
 
 // Notice Card Component
 const NoticeCard = () => (

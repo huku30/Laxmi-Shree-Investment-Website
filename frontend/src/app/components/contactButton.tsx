@@ -2,8 +2,6 @@
 
 import { useRouter } from 'next/navigation';
 
-export const runtime = "edge";
-
 export default function ContactButton() {
   const router = useRouter();
 

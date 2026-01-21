@@ -6,8 +6,6 @@ import { useState, useEffect } from "react";
 import FounderCard from "@/app/components/founderMessageCard";
 import FounderDetails from "@/app/data/founderMessage.json";
 
-
-export const runtime = "edge";
 export default function MessageFromOurFounderPage(){
   const [currentFounderIndex, setCurrentFounderIndex] = useState(0);
   const [touchStartX, setTouchStartX] = useState(0);

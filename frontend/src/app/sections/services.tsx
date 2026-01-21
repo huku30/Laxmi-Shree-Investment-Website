@@ -3,7 +3,7 @@
 
 import ServiceCard from "../components/servicesCard";
 import servicesData from "../data/servicesData.json";
-export const runtime = "edge";
+
 export default function ServicesPage() {
 
 

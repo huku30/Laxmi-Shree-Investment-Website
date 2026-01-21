@@ -3,7 +3,6 @@
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import FAQ from '../components/FAQ';
-export const runtime = "edge";
 
 const ContactDetails = () => (
   <div className="flex flex-col items-center lg:items-start gap-4 lg:gap-6 w-full">
