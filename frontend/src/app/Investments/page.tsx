@@ -104,7 +104,7 @@ const investments = [
   {
     logoUrl: "Invested_Company_Logo/godrive.png",
     companyName: "Go Drive.",
-    description: "Developing sustainable hydroelectric projects that contribute to Nepal's energy security while promoting environmental conservation and community development initiatives.",
+    description: "Providing reliable and affordable car servicing solutions that ensure vehicle safety, optimal performance, and long-term customer trust.",
     readMoreUrl: "#",
     pdfFileName: "go-drive.pdf"
   }
