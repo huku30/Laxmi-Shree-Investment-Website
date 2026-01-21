@@ -107,6 +107,13 @@ const investments = [
     description: "Providing reliable and affordable car servicing solutions that ensure vehicle safety, optimal performance, and long-term customer trust.",
     readMoreUrl: "#",
     pdfFileName: "go-drive.pdf"
+  },
+  {
+    logoUrl: "Invested_Company_Logo/himaldentalhospital.png",
+    companyName: "Himal Dental Hospital",
+    description: "Developing sustainable dental healthcare services that contribute to Nepal’s oral health security while promoting preventive care, environmental responsibility, and community-based oral health development initiatives.",
+    readMoreUrl: "https://college.himaldental.com.np/",
+    pdfFileName: "himal-dental-hospital.pdf"
   }
 
 ];

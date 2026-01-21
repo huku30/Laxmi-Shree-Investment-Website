@@ -36,6 +36,10 @@
     {
       "name": "GoDrive",
       "path": "/carousel/godrive.png"
+    },
+    {
+      "name": "Himal Dental Hospital",
+      "path": "/carousel/himaldentalhospital.png"
     }
   ]
 }
