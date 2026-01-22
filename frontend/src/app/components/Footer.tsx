@@ -93,22 +93,22 @@ export default function Footer() {
   ];
 
   const contactInfo = [
-    {
-      icon: <MailIcon />,
-      text: "laxmishree2005@gmail.com",
-      href: "mailto:laxmishree2005@gmail.com"
-    },
-    {
-      icon: <PhoneIcon />,
-      text: "01-4533311",
-      href: "tel:01-4533311"
-    },
-    {
-      icon: <WhatsAppIcon />,
-      text: "+977 9851193622",
-      href: "https://wa.me/9779851193622"
-    }
-  ];
+  {
+    icon: <MailIcon />,
+    text: "contact@laxmishreeinvestment.com",
+    href: "mailto:contact@laxmishreeinvestment.com",
+  },
+  {
+    icon: <PhoneIcon />,
+    text: "01-4533311",
+    href: "tel:014533311", 
+  },
+  {
+    icon: <WhatsAppIcon />,
+    text: "+977 9851193622",
+    href: "https://wa.me/9779851193622",
+  },
+];
 
   return (
     <footer className="bg-white relative">
