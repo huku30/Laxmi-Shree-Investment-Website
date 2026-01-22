@@ -88,8 +88,8 @@ export default function Footer() {
   const navigationLinks = [
     { name: "Home", href: "/" },
     { name: "Team", href: "/team" },
-    { name: "Investment", href: "/investments" },
-    { name: "Contact Us", href: "/contact" }
+    { name: "Investment", href: "/Investments" },
+    { name: "Contact Us", href: "/Contact" }
   ];
 
   const contactInfo = [
