@@ -89,7 +89,7 @@ export default function Footer() {
     { name: "Home", href: "/" },
     { name: "Team", href: "/team" },
     { name: "Investment", href: "/Investments" },
-    { name: "Contact Us", href: "/Contact" }
+    { name: "Contact Us", href: "/contact" }
   ];
 
   const contactInfo = [
