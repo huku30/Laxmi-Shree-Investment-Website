@@ -75,7 +75,7 @@ export default function RupakotResortPage() {
               </p>
 
               <a
-                href="https://downloads.laxmishreeinvestment.com/rupakotresort-pitchdeck.pdf"
+                href="https://laxmishreeinvestment.com/downloads/rupakotresort-pitchdeck.pdf"
                 target="_blank"
                 rel="noreferrer"
                 download
@@ -95,7 +95,7 @@ export default function RupakotResortPage() {
               </p>
 
               <a
-                href="https://downloads.laxmishreeinvestment.com/rupakotresort-investor-form.pdf"
+                href="https://laxmishreeinvestment.com/downloads/rupakotresort-investor-form.pdf"
                 target="_blank"
                 rel="noreferrer"
                 download
