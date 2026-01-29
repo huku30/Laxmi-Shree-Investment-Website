@@ -63,7 +63,7 @@ export default function RupakotResortPage() {
             </div>
           </div>
 
-          Documents
+          {/* Documents */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-8">
             {/* Pitch Deck */}
             <div className="rounded-[12px] bg-[#F5F1FF] p-6 md:p-8 shadow-[0_0_3.834px_0_rgba(0,0,0,0.15)] border border-[#eee]">
