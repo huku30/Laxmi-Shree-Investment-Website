@@ -23,7 +23,7 @@ export default function AayuMalunKholaHydropowerPage() {
             </div>
 
             <Link
-              href="/notices"
+              href="/Notices"
               className="w-full md:w-auto text-center px-4 py-2 rounded-[10px] border border-[#35115F] text-[#35115F] font-semibold transition-all duration-200 hover:bg-[#35115F] hover:text-white focus:outline-none focus:ring-0"
             >
               ← Back to Notices
