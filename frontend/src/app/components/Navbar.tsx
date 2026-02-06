@@ -19,7 +19,9 @@ export default function Navbar() {
     { name: "Investments", href: "/Investments", isSPA: false },
     { name: "Team", href: "/team", isSPA: false },
     { name: "Gallery", href: "/Gallery", isSPA: false },
+    { name: "News", href: "/News", isSPA: false },
     { name: "Notice", href: "/Notices", isSPA: false }
+    
   ];
 
   const handleNavigation = (item: typeof navigationItems[0]) => {

@@ -96,13 +96,10 @@ export default function Notices() {
           <div className="flex flex-col gap-5 mb-[60px]">
             {/* News | Notice Header */}
             <div className="flex items-center gap-2">
-              <div className="text-[#9D29C6] text-2xl font-semibold leading-[140%] capitalize">
-                News
-              </div>
               <div className="flex items-center gap-[9px]">
-                <div className="w-[1px] h-[30px] bg-[#A53ACA]"></div>
+                {/* <div className="w-[1px] h-[30px] bg-[#A53ACA]"></div> */}
                 <div className="text-[#9D29C6] text-2xl font-semibold leading-[140%] capitalize">
-                  Notice
+                Notice
                 </div>
               </div>
             </div>
@@ -110,7 +107,7 @@ export default function Notices() {
             {/* Description */}
             <div className="opacity-90">
               <p className="text-[#35115F] text-lg font-medium ">
-                Stay updated with latest news and updates.
+                Stay updated with latest notice and updates.
               </p>
             </div>
           </div>
