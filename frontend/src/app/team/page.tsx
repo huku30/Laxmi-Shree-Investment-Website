@@ -78,6 +78,20 @@ const companySecretary = [
   
 
 ];
+
+// const companyCEO = [
+//   {
+    
+//     name: "Narayan Koirala",
+//     position: "CEO",
+//     imageUrl: "ceo/Narayan_Koirala.jpg",
+//     emailUrl: "john.doe@company.com",
+//     linkedinUrl: "https://www.linkedin.com/"
+//   }
+  
+
+// ];
+
 export default function TeamPage() {
   return (
     <>
@@ -113,6 +127,23 @@ export default function TeamPage() {
         </div>
       </section>
 
+      { /*Commented section for future use  }
+      { <section className="px-4 pt-[5rem] md:px-8 lg:px-16">
+        <h1 className="text-3xl font-bold text-center text-[#9D29C6] mb-10">Advisory Board</h1>
+        <div className="flex flex-wrap justify-center gap-8">
+          {teamMembers.map((member, idx) => (
+            <TeamCard
+              key={idx}
+              name={member.name}
+              position={member.position}
+              imageUrl={member.imageUrl}
+              emailUrl={member.emailUrl}
+              linkedinUrl={member.linkedinUrl}
+            />
+          ))}
+        </div> 
+      </section>}
+
       {/* Management Team Section */}
       <section className="px-4 pt-[5rem] md:px-8 lg:px-16 pb-8">
         <h1 className="text-3xl font-bold text-center text-[#9D29C6] mb-10">Management Team</h1>
@@ -129,6 +160,7 @@ export default function TeamPage() {
           ))}
         </div>
       </section>
+      {/* Company Secretary Section */}
       <section className="px-4 pt-[5rem] md:px-8 lg:px-16 pb-8">
         <h1 className="text-3xl font-bold text-center text-[#9D29C6] mb-10">Company Secretary</h1>
         <div className="flex flex-wrap justify-center gap-8">

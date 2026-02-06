@@ -2,6 +2,7 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Link from "next/link";
+import { title } from "process";
 
 // Notice Card Component (now takes props and is clickable)
 const NoticeCard = ({
@@ -37,6 +38,18 @@ const NoticeCard = ({
 export default function Notices() {
   // Replace this with your real investments list
   const investments = [
+{
+  title: "Laxmi Shree Investment Pvt. Ltd.",
+  href: "/Notices/LaxmiShree",
+  imageSrc: "/Notices_logo/laxmishree.png",
+},
+     
+     {
+      title: "TenX Holdings",
+      href : "/Notices/TenX",
+      imageSrc: "/Notices_logo/tenx.png",
+    },
+
     {
       title: "Rupakot Resort",
       href: "/Notices/RupakotResort",
@@ -45,6 +58,32 @@ export default function Notices() {
     },
     // Add more like:
     // { title: "Hydropower Project", href: "/Notices/hydropower", imageSrc: "..." },
+
+   
+
+    {
+      title: "Hotel Bhadgaon",
+      href : "/Notices/HotelBhadgaon",
+      imageSrc: "/Notices_logo/hotelbhadgaon.png",
+    },
+
+    {
+      title: "Aayu Malun Khola Hydropower",
+      href : "/Notices/AayuMalunKholaHydropower",
+      imageSrc: "/Notices_logo/aayumalunkholahydropower.png",
+    },
+{
+  title: "Asian Batteries",
+  href: "/Notices/AsianBatteries",
+  imageSrc: "/Notices_logo/asianbatteries.png",
+},
+
+{
+  title: "Garjang Hydropower",
+  href: "/Notices/GarjangHydropower",
+  imageSrc: "/Notices_logo/garjanghydropower.png",
+},
+
   ];
 
   return (
