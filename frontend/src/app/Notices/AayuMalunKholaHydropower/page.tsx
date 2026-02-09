@@ -75,7 +75,7 @@ export default function AayuMalunKholaHydropowerPage() {
               </p>
 
               <a
-                href="https://laxmishreeinvestment.com/downloads/aayumalunkholahydropower-pitchdeck.pdf"
+                href="https://laxmishreeinvestment.com/downloads/aayumalunkholahydropower-pitchdeckpdf"
                 target="_blank"
                 rel="noreferrer"
                 download

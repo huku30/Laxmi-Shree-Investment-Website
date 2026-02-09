@@ -36,6 +36,14 @@ const teamMembers = [
 ];
 
 const managementTeam = [
+   {
+    name: "Narayan Koirala",
+    position: "CEO",
+    imageUrl: "management/Narayan_Koirala.jpeg",
+    emailUrl: "narayan.koirala@company.com",
+    linkedinUrl: "https://www.linkedin.com/"
+   },
+
   {
     name: "CA Biraj Adhikari",
     position: "Head of Finance",
