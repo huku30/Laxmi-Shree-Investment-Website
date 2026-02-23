@@ -44,8 +44,76 @@ export default function NewsPage() {
             </div>
           </div>
 
+
+
           {/* News Cards */}
           <div className="flex flex-col gap-[30px] lg:grid lg:grid-cols-2 xl:grid-cols-3 lg:gap-8">
+
+ {/* Hotel Bhadgaun 23 Feb 2026 */}
+            <Link
+              href="https://clickmandu.com/2026/02/438705.html"
+              className="rounded-[14px] border border-[#eee] bg-white shadow-[0_0_4px_rgba(0,0,0,0.1)] p-6 transition hover:shadow-md hover:-translate-y-[2px]"
+            >
+              <p className="text-[0.8rem] text-[#999]">February 23, 2026</p>
+
+              <h2 className="text-[#35115F] text-[1.2rem] font-semibold mt-2">
+                होटल भादगाउँ एन्ड रिसोर्ट पाँचतारेमा स्तरोन्नति हुँदै, १ करोड ४० लाख खुद नाफा
+              </h2>
+
+              <p className="text-[#666] mt-2 text-[0.95rem] line-clamp-3">
+                होटल भादगाउँ एन्ड रिसोर्टले गत आर्थिक वर्षमा करिब ८.५ करोड रुपैयाँको व्यापार गर्दै १ करोड ४० लाख रुपैयाँ खुद नाफा कमाएको छ। कम्पनीले कोठा तथा सेवा स्तरोन्नति गर्दै पाँचतारे स्तरको सुविधा विस्तार गर्ने योजना सार्वजनिक गरेको छ।
+              </p>
+
+              <span className="inline-block mt-4 text-[#35115F] font-semibold">
+                Read more →
+              </span>
+            </Link>
+
+
+
+             {/* Asian Battery 16 July 2025 */}
+            <Link
+              href="https://bizshala.com/article/16447"
+              className="rounded-[14px] border border-[#eee] bg-white shadow-[0_0_4px_rgba(0,0,0,0.1)] p-6 transition hover:shadow-md hover:-translate-y-[2px]"
+            >
+              <p className="text-[0.8rem] text-[#999]">July 16, 2025</p>
+
+              <h2 className="text-[#35115F] text-[1.2rem] font-semibold mt-2">
+                एशियन ब्याट्रीजले आईपीओ निष्कासन गर्ने, बिक्री प्रबन्धकमा हिमालयन क्यापिटल
+              </h2>
+
+              <p className="text-[#666] mt-2 text-[0.95rem] line-clamp-3">
+                एशियन ब्याट्रीजले आईपीओ निष्कासन गर्ने योजना सार्वजनिक गर्दै बिक्री प्रबन्धकका रूपमा
+                हिमालयन क्यापिटललाई नियुक्त गरेको छ।
+              </p>
+
+              <span className="inline-block mt-4 text-[#35115F] font-semibold">
+                Read more →
+              </span>
+            </Link>
+
+  {/* Garjang Hydropower 6 July 2025 */}
+            <Link
+              href="https://www.facebook.com/100038759265489/posts/1556484045653556/?rdid=LlEHSOCWWmAsj7qF"
+              className="rounded-[14px] border border-[#eee] bg-white shadow-[0_0_4px_rgba(0,0,0,0.1)] p-6 transition hover:shadow-md hover:-translate-y-[2px]"
+            >
+              <p className="text-[0.8rem] text-[#999]">July 6, 2025</p>
+
+              <h2 className="text-[#35115F] text-[1.2rem] font-semibold mt-2">
+                गर्जाङ उपत्यका हाइड्रो पावर लिमिटेडले सार्वसाधारणलाई शेयर जारी गर्दै
+              </h2>
+
+              <p className="text-[#666] mt-2 text-[0.95rem] line-clamp-3">
+                मुक्तिनाथ क्यापिटलले सेयर बजारसँग जोडिएको नयाँ अपडेटहरू, IPO खुल्ला घोषणाहरू र लगानी
+                सूचनाहरू सेयर गरेको छ।
+              </p>
+
+              <span className="inline-block mt-4 text-[#35115F] font-semibold">
+                Read more →
+              </span>
+            </Link>
+
+            
             {/* Rising Hydro 30 Jun 2025 */}
             <Link
               href="https://www.sharesansar.com/index.php/newsdetail/muktinath-capital-appointed-as-issue-manager-for-rising-hydropowers-ipo-2025-06-30"
@@ -67,47 +135,7 @@ export default function NewsPage() {
               </span>
             </Link>
 
-            {/* Garjang Hydropower 6 July 2025 */}
-            <Link
-              href="https://www.facebook.com/100038759265489/posts/1556484045653556/?rdid=LlEHSOCWWmAsj7qF"
-              className="rounded-[14px] border border-[#eee] bg-white shadow-[0_0_4px_rgba(0,0,0,0.1)] p-6 transition hover:shadow-md hover:-translate-y-[2px]"
-            >
-              <p className="text-[0.8rem] text-[#999]">July 6, 2025</p>
 
-              <h2 className="text-[#35115F] text-[1.2rem] font-semibold mt-2">
-                गर्जाङ उपत्यका हाइड्रो पावर लिमिटेडले सार्वसाधारणलाई शेयर जारी गर्दै
-              </h2>
-
-              <p className="text-[#666] mt-2 text-[0.95rem] line-clamp-3">
-                मुक्तिनाथ क्यापिटलले सेयर बजारसँग जोडिएको नयाँ अपडेटहरू, IPO खुल्ला घोषणाहरू र लगानी
-                सूचनाहरू सेयर गरेको छ।
-              </p>
-
-              <span className="inline-block mt-4 text-[#35115F] font-semibold">
-                Read more →
-              </span>
-            </Link>
-
-            {/* Asian Battery 16 July 2025 */}
-            <Link
-              href="https://bizshala.com/article/16447"
-              className="rounded-[14px] border border-[#eee] bg-white shadow-[0_0_4px_rgba(0,0,0,0.1)] p-6 transition hover:shadow-md hover:-translate-y-[2px]"
-            >
-              <p className="text-[0.8rem] text-[#999]">July 16, 2025</p>
-
-              <h2 className="text-[#35115F] text-[1.2rem] font-semibold mt-2">
-                एशियन ब्याट्रीजले आईपीओ निष्कासन गर्ने, बिक्री प्रबन्धकमा हिमालयन क्यापिटल
-              </h2>
-
-              <p className="text-[#666] mt-2 text-[0.95rem] line-clamp-3">
-                एशियन ब्याट्रीजले आईपीओ निष्कासन गर्ने योजना सार्वजनिक गर्दै बिक्री प्रबन्धकका रूपमा
-                हिमालयन क्यापिटललाई नियुक्त गरेको छ।
-              </p>
-
-              <span className="inline-block mt-4 text-[#35115F] font-semibold">
-                Read more →
-              </span>
-            </Link>
           </div>
         </div>
       </div>
