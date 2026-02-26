@@ -71,7 +71,7 @@ export default function AsianBatteriesPage() {
                 Pitch Deck (PDF)
               </h2>
               <p className="text-[#666] mt-2 text-[0.95rem]">
-                Download our latest pitch deck for Rupakot Resort.
+                Download our latest pitch deck for Asian Batteries Ltd.
               </p>
 
               <a
