@@ -85,7 +85,7 @@ export default function Notices() {
 },
 
 {
-  title: "Janaki Cable Industries Ltd.",
+  title: "Janaki Cable Industry Ltd.",
   href: "/Notices/JanakiCableIndustries",
   imageSrc: "/Notices_logo/janakicableindustries.png",
 },

@@ -15,7 +15,7 @@ export default function JanakiCableIndustriesPage() {
           <div className="flex items-start md:items-center justify-between gap-4 flex-col md:flex-row">
             <div>
               <h1 className="text-[#35115F] text-[1.6rem] md:text-[2.1rem] font-semibold">
-               Janaki Cable Industries Ltd.
+               Janaki Cable Industry Ltd.
               </h1>
               <p className="text-[#666] mt-2 text-[0.95rem] md:text-[1rem]">
                 Download the pitch deck and investor form for this investment.
@@ -54,7 +54,7 @@ export default function JanakiCableIndustriesPage() {
 
               <div className="w-full">
                 <h2 className="text-[#35115F] text-[1.25rem] md:text-[1.4rem] font-semibold">
-                  Janaki Cable Industries Ltd.
+                  Janaki Cable Industry Ltd.
                 </h2>
                 <p className="text-[#666] mt-1 text-[0.95rem]">
                   Investor documents are available below for download.
@@ -71,11 +71,11 @@ export default function JanakiCableIndustriesPage() {
                 Pitch Deck (PDF)
               </h2>
               <p className="text-[#666] mt-2 text-[0.95rem]">
-                Download our latest pitch deck for Janaki Cable Industries Ltd.
+                Download our latest pitch deck for Janaki Cable Industry Ltd.
               </p>
 
               <a
-                href="https://laxmishreeinvestment.com/downloads/janakicableindustries-pitchdeck.pdf"
+                href="https://laxmishreeinvestment.com/downloads/janakicableindustry-pitchdeck.pdf"
                 target="_blank"
                 rel="noreferrer"
                 download

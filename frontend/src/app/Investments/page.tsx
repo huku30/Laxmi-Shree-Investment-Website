@@ -117,10 +117,10 @@ const investments = [
   },
   {
     logoUrl: "Invested_Company_Logo/janakicableindustries.png",
-    companyName: "Janaki Cable Industries Ltd.",
+    companyName: "Janaki Cable Industry Ltd.",
     description: "Strengthening Nepal’s electrical infrastructure through durable cable manufacturing, innovation in energy transmission, and commitment to quality, safety, and sustainable industrial progress.",
     readMoreUrl: "https://janakicable.com/",
-    pdfFileName: "janaki-cable-industries.pdf"
+    pdfFileName: "janaki-cable-industry.pdf"
   }
 
 ];
