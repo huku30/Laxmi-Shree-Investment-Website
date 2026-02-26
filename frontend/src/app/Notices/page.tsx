@@ -84,6 +84,12 @@ export default function Notices() {
   imageSrc: "/Notices_logo/garjanghydropower.png",
 },
 
+{
+  title: "Janaki Cable Industries Ltd.",
+  href: "/Notices/JanakiCableIndustries",
+  imageSrc: "/Notices_logo/janakicableindustries.png",
+},
+
   ];
 
   return (

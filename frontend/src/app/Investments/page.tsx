@@ -114,6 +114,13 @@ const investments = [
     description: "Developing sustainable dental healthcare services that contribute to Nepal’s oral health security while promoting preventive care, environmental responsibility, and community-based oral health development initiatives.",
     readMoreUrl: "https://college.himaldental.com.np/",
     pdfFileName: "himal-dental-hospital.pdf"
+  },
+  {
+    logoUrl: "Invested_Company_Logo/janakicableindustries.png",
+    companyName: "Janaki Cable Industries Ltd.",
+    description: "Strengthening Nepal’s electrical infrastructure through durable cable manufacturing, innovation in energy transmission, and commitment to quality, safety, and sustainable industrial progress.",
+    readMoreUrl: "https://janakicable.com/",
+    pdfFileName: "janaki-cable-industries.pdf"
   }
 
 ];
