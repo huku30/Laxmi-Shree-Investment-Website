@@ -88,7 +88,7 @@ export default function Notices() {
 
  {
       title: "Aayu Malun Khola Hydropower",
-      href : "/Notices/AayuMalunKholahydropower",
+      href : "/Notices/AayuMalunKholaHydropower",
       imageSrc: "/Notices_logo/aayumalunkholahydropower.png",
     },
 
