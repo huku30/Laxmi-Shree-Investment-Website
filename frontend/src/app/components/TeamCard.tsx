@@ -25,16 +25,16 @@ export default function TeamCard({
         background: "linear-gradient(154deg, #F5F0FF 0.18%, #FAFAFA 283.69%, #FFF8E6 567.21%)"
       }}
     >
-      {/* Image Container */}
-      <div className="p-[11px] pt-[12px] flex-shrink-0">
-        <div className="w-[254px] h-[318px] flex justify-center items-center rounded-lg p-1">
-          <img 
-            src={imageUrl} 
-            alt={name}
-            className="w-[246px] h-[306px] object-cover rounded-lg"
-          />
-        </div>
-      </div>
+     {/* Image Container */}
+<div className="p-[11px] pt-[12px] flex-shrink-0">
+  <div className="w-[254px] h-[318px] overflow-hidden rounded-lg bg-[#f3f3f3]">
+    <img
+      src={imageUrl}
+      alt={name}
+      className="w-full h-full object-cover object-center"
+    />
+  </div>
+</div>
 
       {/* Content Container - Centered with equal padding */}
       <div className="px-[11px] flex-1 flex flex-col justify-center h-[74px]">

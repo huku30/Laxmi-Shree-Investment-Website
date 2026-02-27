@@ -4,6 +4,27 @@ import TeamCard from "../components/TeamCard";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
+
+
+const advisorTeam =[
+{
+  name: "Dr.Bijay Prakash Sainju(PhD)",
+  position: "",
+  imageUrl : "advisor/bijay_prakash_sainju.png",
+  emailUrl: "bijay.sainju@company.com",
+  linkedinUrl: "https://www.linkedin.com/in/bijay-prakash-sainju/"
+},
+
+{
+  name :"Sr. Cpt. Samaj Kumar Shrestha",
+  position : "",
+  imageUrl : "advisor/samaj_shrestha.png",
+  emailUrl : "samaj.shrestha@company.com",
+  linkedinUrl: "https://www.linkedin.com"
+}
+
+];
+
 const teamMembers = [
   {
     name: "Laxmi Prasad Prasai",
@@ -35,11 +56,30 @@ const teamMembers = [
   }
 ];
 
+const financialanalystTeam = [
+{
+  name : "Er.Binod Maharjhan",
+  position: "",
+  imageUrl : "financial/binod_maharjhan.png",
+  emailUrl : "binod.maharjhan@company.com",
+  linkedinUrl: "https://www.linkedin.com"
+},
+
+{
+  name : "CA Shraddha Nepal",
+  position : "",
+  imageUrl : "financial/shraddha_nepal.png",
+  emailUrl : "shraddha.nepal@company.com",
+  linkedinUrl : "https://www.linkedin.com"
+}
+
+];
+
 const managementTeam = [
    {
     name: "Narayan Koirala",
     position: "CEO",
-    imageUrl: "management/Narayan_Koirala.jpeg",
+    imageUrl: "management/narayan_koirala.png",
     emailUrl: "narayan.koirala@company.com",
     linkedinUrl: "https://www.linkedin.com/"
    },
@@ -47,7 +87,7 @@ const managementTeam = [
   {
     name: "CA Biraj Adhikari",
     position: "Head of Finance",
-    imageUrl: "management/Biraj_Adhikari.jpg",
+    imageUrl: "management/biraj_adhikari.png",
     emailUrl: "john.doe@company.com",
     linkedinUrl: "https://www.linkedin.com/"
   },
@@ -61,7 +101,7 @@ const managementTeam = [
   {
     name: "Om Prakash Tamrakar",
     position: "Account Officer",
-    imageUrl: "management/Om_Prakash.jpg",
+    imageUrl: "management/om_prakash.png",
     emailUrl: "michael.johnson@company.com",
     linkedinUrl: "https://www.linkedin.com/"
   },
@@ -104,10 +144,34 @@ export default function TeamPage() {
   return (
     <>
       <Navbar/>
+
+            { /*Advisor  Section */}
+<section className="px-4 pt-[5rem] md:px-8 lg:px-16 pb-8">
+        <h1 className="text-3xl font-bold text-center text-[#9D29C6] mb-10">Advisor</h1>
+        <div className="flex flex-wrap justify-center gap-8">
+          {advisorTeam.map((member, idx) => (
+            <TeamCard
+              key={idx}
+              name={member.name}
+              position={member.position}
+              imageUrl={member.imageUrl}
+              emailUrl={member.emailUrl}
+              linkedinUrl={member.linkedinUrl}
+            />
+          ))}
+        </div>
+      </section>
+
+
       <section className="px-4 pt-[6.5rem] md:px-8 lg:px-16 pb-8">
         <h1 className="text-3xl font-bold text-center text-[#9D29C6] mb-10">Our Leadership Team</h1>
         
         <div className="max-w-7xl mx-auto space-y-6">
+
+
+
+
+          
           {/* First Row - Chairman (Single, Centered) */}
           <div className="flex justify-center">
             <TeamCard
@@ -152,6 +216,46 @@ export default function TeamPage() {
         </div> 
       </section>}
 
+
+
+   { /*financial analyst */}
+<section className="px-4 pt-[5rem] md:px-8 lg:px-16 pb-8">
+        <h1 className="text-3xl font-bold text-center text-[#9D29C6] mb-10">Financial Analyst</h1>
+        <div className="flex flex-wrap justify-center gap-8">
+          {financialanalystTeam.map((member, idx) => (
+            <TeamCard
+              key={idx}
+              name={member.name}
+              position={member.position}
+              imageUrl={member.imageUrl}
+              emailUrl={member.emailUrl}
+              linkedinUrl={member.linkedinUrl}
+            />
+          ))}
+        </div>
+      </section>
+
+
+   {/* Company Secretary Section */}
+      <section className="px-4 pt-[5rem] md:px-8 lg:px-16 pb-8">
+        <h1 className="text-3xl font-bold text-center text-[#9D29C6] mb-10">Company Secretary</h1>
+        <div className="flex flex-wrap justify-center gap-8">
+          {companySecretary.map((member, idx) => (
+            <TeamCard
+              key={idx}
+              name={member.name}
+              position={member.position}
+              imageUrl={member.imageUrl}
+              emailUrl={member.emailUrl}
+              linkedinUrl={member.linkedinUrl}
+            />
+          ))}
+        </div>
+      </section>
+
+
+
+
       {/* Management Team Section */}
       <section className="px-4 pt-[5rem] md:px-8 lg:px-16 pb-8">
         <h1 className="text-3xl font-bold text-center text-[#9D29C6] mb-10">Management Team</h1>
@@ -168,22 +272,7 @@ export default function TeamPage() {
           ))}
         </div>
       </section>
-      {/* Company Secretary Section */}
-      <section className="px-4 pt-[5rem] md:px-8 lg:px-16 pb-8">
-        <h1 className="text-3xl font-bold text-center text-[#9D29C6] mb-10">Company Secretary</h1>
-        <div className="flex flex-wrap justify-center gap-8">
-          {companySecretary.map((member, idx) => (
-            <TeamCard
-              key={idx}
-              name={member.name}
-              position={member.position}
-              imageUrl={member.imageUrl}
-              emailUrl={member.emailUrl}
-              linkedinUrl={member.linkedinUrl}
-            />
-          ))}
-        </div>
-      </section>
+   
       {/* Commented section for future use */}
       {/* <section className="px-4 pt-[5rem] md:px-8 lg:px-16">
         <h1 className="text-3xl font-bold text-center text-[#9D29C6] mb-10">Advisory Board</h1>
