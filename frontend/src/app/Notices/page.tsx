@@ -67,11 +67,7 @@ export default function Notices() {
       imageSrc: "/Notices_logo/hotelbhadgaon.png",
     },
 
-    {
-      title: "Aayu Malun Khola Hydropower",
-      href : "/Notices/AayuMalunKholaHydropower",
-      imageSrc: "/Notices_logo/aayumalunkholahydropower.png",
-    },
+   
 {
   title: "Asian Batteries",
   href: "/Notices/AsianBatteries",
@@ -89,6 +85,12 @@ export default function Notices() {
   href: "/Notices/JanakiCableIndustries",
   imageSrc: "/Notices_logo/janakicableindustries.png",
 },
+
+ {
+      title: "Aayu Malun Khola Hydropower",
+      href : "/Notices/AayuMalunKholahydropower",
+      imageSrc: "/Notices_logo/aayumalunkholahydropower.png",
+    },
 
   ];
 
