@@ -26,15 +26,16 @@ export default function FounderCard({ founderId = 1, customData }: FounderCardPr
 
     return (
 <section className="flex flex-col px-[1.4rem] gap-[2rem] md:px-[2.5rem] md:gap-[2.5rem] lg:flex-row lg:items-stretch lg:px-[3rem] lg:gap-[3rem] xl:px-[4rem] xl:gap-[4rem] xl:w-[60rem]  xl:mx-auto xl:rounded-[1.25rem] xl:border-[.5px] xl:border-[#5E2D91] xl:p-[2.5rem] 3xl:w-[80rem] 3xl:gap-[5rem] 3xl:p-[3.5rem]">         
-       <div className="flex justify-center items-center lg:justify-start lg:flex-shrink-0">
-                <Image
-                    src={founder.imagePath}
-                    alt={founder.name}
-                    width={200}
-                    height={250}
-                    className="w-[200px] h-[250px] md:w-[220px] md:h-[275px] lg:w-[320px] lg:h-full xl:w-[380px] 3xl:w-[450px] object-cover rounded-[1.25rem] lg:rounded-lg border-[1.5px] border-[#67209D] lg:border-none"
-                />
-            </div>
+       <div className="flex justify-center items-center lg:justify-start">
+  <div className="relative w-[220px] md:w-[260px] lg:w-[320px] xl:w-[380px] aspect-[3/4]">
+    <Image
+      src={founder.imagePath}
+      alt={founder.name}
+      fill
+      className="object-cover rounded-[1.25rem] lg:rounded-lg border-[1.5px] border-[#67209D] lg:border-none"
+    />
+  </div>
+</div>
 
             {/* Content Container */}
             <div className="flex flex-col gap-[1rem] md:gap-[1.25rem] lg:gap-[1.5rem] xl:gap-[1.75rem] 3xl:gap-[2rem] lg:flex-1">
