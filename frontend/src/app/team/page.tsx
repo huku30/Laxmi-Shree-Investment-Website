@@ -87,7 +87,7 @@ const managementTeam = [
    {
     name: "Narayan Koirala",
     position: "CEO",
-    imageUrl: "management/narayan_koirala.png",
+    imageUrl: "ceo/Narayan_Koirala.png",
     emailUrl: "narayan.koirala@company.com",
     linkedinUrl: "https://www.linkedin.com/"
    },
