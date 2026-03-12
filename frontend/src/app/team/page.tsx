@@ -57,6 +57,14 @@ const teamMembers = [
 ];
 
 const financialanalystTeam = [
+
+  {
+    name : "Roshan Dahal FCA",
+    position :"",
+    imageUrl : "financial/roshan_dahal.png",
+    emailUrl : "roshan.dahal@company.com",
+    linkedinUrl : "https://www.linkedin.com"
+  },
 {
   name : "Er.Binod Maharjhan",
   position: "",
