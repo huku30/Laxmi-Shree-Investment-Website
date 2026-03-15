@@ -95,7 +95,7 @@ const investments = [
     pdfFileName: "himalayan-urja.pdf"
   },
   {
-    logoUrl: "Invested_Company_Logo/default.svg",
+    logoUrl: "Invested_Company_Logo/ramailolikhu.png",
     companyName: "Ramailo Likhu Hydropower Ltd.",
     description: "Developing sustainable hydroelectric projects that contribute to Nepal's energy security while promoting environmental conservation and community development initiatives.",
     readMoreUrl: "#",

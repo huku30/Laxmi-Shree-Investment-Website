@@ -44,6 +44,11 @@
     {
       "name": "Janaki Cable Industries",
       "path": "/carousel/janakicableindustries.png"
+    },
+    {
+      "name" :"Ramailo Likhu",
+      "path": "/carousel/ramailolikhu.png"
+
     }
   ]
 }
