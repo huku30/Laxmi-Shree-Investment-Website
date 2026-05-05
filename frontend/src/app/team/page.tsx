@@ -36,14 +36,14 @@ const teamMembers = [
   {
     name: "Shankar Bahadur Ghimire",
     position: "MD",
-    imageUrl: "founders/sankharghimire.png",
+    imageUrl: "founders/sankharghimire.jpeg",
     emailUrl: "priya@company.com",
     linkedinUrl: "http://linkedin.com/in/shankar-ghimire-81b936232"
   },
   {
     name: "Laxmi Bhattarai",
     position: "Director",
-    imageUrl: "founders/laxmibhattarai.png",
+    imageUrl: "founders/laxmibhattarai.jpeg",
     emailUrl: "priya@company.com",
     linkedinUrl: "http://linkedin.com/in/laxmi-bhattarai-7665264b"
   },
