@@ -121,6 +121,14 @@ const investments = [
     description: "Strengthening Nepal’s electrical infrastructure through durable cable manufacturing, innovation in energy transmission, and commitment to quality, safety, and sustainable industrial progress.",
     readMoreUrl: "https://janakicable.com/",
     pdfFileName: "janaki-cable-industry.pdf"
+  },
+  {
+    logoUrl: "Invested_Company_Logo/aagantukresort.png",
+    companyName: "Aagantuk Resort",
+    description: "Offering a unique blend of traditional hospitality and modern amenities in the heart of Nepal's scenic landscape.",
+    readMoreUrl: "https://www.aagantukresort.com/",
+    pdfFileName: "aagantuk-resort.pdf"
+
   }
 
 ];
