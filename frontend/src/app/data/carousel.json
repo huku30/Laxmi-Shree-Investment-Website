@@ -53,6 +53,18 @@
     {
       "name": "Aagantuk Resort",
       "path": "/carousel/aagantukresort.png"
+    },
+    {
+      "name": "Greenedi Hydropower",
+      "path": "/carousel/greenedi.png"
+    },
+    {
+      "name": "Himalayan Solar Power",
+      "path": "/carousel/himalayansolar.png"
+    },
+    {
+      "name": "Siddha Bhoomi Retreat",
+      "path": "/carousel/siddhabhoomi.png"
     }
   ]
 }

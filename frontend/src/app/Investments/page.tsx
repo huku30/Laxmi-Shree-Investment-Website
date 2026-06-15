@@ -18,7 +18,7 @@ const investments = [
     pdfFileName: "sopan-pharma.pdf"
   },
   {
-    logoUrl: "Invested_Company_Logo/default.svg",
+    logoUrl: "Invested_Company_Logo/himalayansolar.png",
     companyName: "Himalayan Solar Ltd.",
     description: "From humble beginnings to a solar leader, our journey is driven by innovation and sustainability. With advanced technology, we empower communities and businesses with reliable, clean energy solutions.",
     readMoreUrl: "#",
@@ -32,11 +32,11 @@ const investments = [
     pdfFileName: "gargang-upateka-hydropower.pdf"
   },
   {
-    logoUrl: "Invested_Company_Logo/default.svg",
-    companyName: "Idi Hydropower Company Ltd.",
-    description: "Pioneering renewable energy development in Nepal, Eidi Hydropower focuses on sustainable power generation while contributing to local community development and environmental conservation.",
+    logoUrl: "Invested_Company_Logo/greenedi.png",
+    companyName: "Greenedi Hydropower Company Ltd.",
+    description: "Pioneering renewable energy development in Nepal, Greenedi Hydropower focuses on sustainable power generation while contributing to local community development and environmental conservation.",
     readMoreUrl: "#",
-    pdfFileName: "eidi-hydropower.pdf"
+    pdfFileName: "greenedi-hydropower.pdf"
   },
   {
     logoUrl: "Invested_Company_Logo/asianbattery.png",
@@ -74,7 +74,7 @@ const investments = [
     pdfFileName: "aayu-malun-khola.pdf"
   },
   {
-    logoUrl: "Invested_Company_Logo/default.svg",
+    logoUrl: "Invested_Company_Logo/siddhabhoomi.png",
     companyName: "Siddha Bhoomi Retreat Ltd.",
     description: "A serene wellness retreat center offering holistic healing, meditation, and spiritual rejuvenation in Nepal's tranquil natural environment with traditional therapeutic practices.",
     readMoreUrl: "#",
