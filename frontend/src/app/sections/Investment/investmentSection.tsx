@@ -19,24 +19,24 @@ interface Investment {
 const investmentsData: Investment[] = [
   {
     id: 1,
-    title: "Barahi Cable Car Ltd.",
+    title: "Asian Batteries Ltd.",
     description: "Elevate your journey from Sedi to Sarangkot with breathtaking views! Experience the majestic beauty of Annapurna and the sacred 51 ft Pancha Mukhi Ganesh with our safe, scenic cable car rides.",
-    image: "Invested_Company_Logo/default.svg",
-    variant: "purple"
+    image: "Invested_Company_Logo/asianbattery.png",
+    variant: "white"
   },
   {
     id: 2,
-    title: "Sopan Pharmaceuticals",
-    description: "Sopan Pharmaceuticals Limited, founded under Sopan Multiple Company Limited by leading NRNs and entrepreneurs, aims to transform healthcare with innovative, high-quality pharmaceutical products.",
-    image: "Invested_Company_Logo/sopan.jpeg",
+    title: "Garjang Upatyaka Hydropower Ltd.",
+    description: "Garjang Upatyaka Hydropower Ltd. is a leading hydropower company in Nepal, dedicated to providing clean and sustainable energy solutions to communities and businesses.",
+    image: "Invested_Company_Logo/garjang.jpeg",
     variant: "white"
   },
   {
     id: 3,
-    title: "Himalayan Solar Ltd.",
+    title: "Rupakot Resort",
     description: "From humble beginnings to a solar leader, our journey is driven by innovation and sustainability. With advanced technology, we empower communities and businesses with reliable, clean energy solutions.",
-    image: "Invested_Company_Logo/default.svg",
-    variant: "purple"
+    image: "Invested_Company_Logo/rupakot.png",
+    variant: "white"
   }
 ];
 
@@ -102,7 +102,7 @@ export default function InvestmentsSection() {
           </div>
 
           {/* Desktop View - All Cards */}
-          <div className="hidden lg:flex items-center gap-5 w-full max-w-6xl">
+          <div className="hidden lg:flex items-center gap-5 w-full max-w-7xl">
             {investmentsData.map((investment) => (
               <InvestmentCard
                 key={investment.id}
@@ -110,7 +110,7 @@ export default function InvestmentsSection() {
                 description={investment.description}
                 image={investment.image}
                 variant={investment.variant}
-                className={investment.variant === "white" ? "w-full max-w-lg" : "w-full max-w-sm"}
+                className="w-full max-w-lg"
               />
             ))}
           </div>
