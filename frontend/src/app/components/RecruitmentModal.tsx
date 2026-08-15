@@ -143,7 +143,7 @@ function JobDetailBody({ job }: { job: JobOpening }) {
       )}
 
       <a
-        href={mailtoFor(job.title, { body: true })}
+        href={mailtoFor(job.title)}
         aria-label={`Apply now for ${job.title}`}
         className="self-start inline-flex items-center gap-2 rounded-lg bg-[#DC9320] hover:bg-[#C8851C] transition-colors text-white text-sm font-generalSans-semibold font-semibold px-6 py-3 mt-1"
       >
