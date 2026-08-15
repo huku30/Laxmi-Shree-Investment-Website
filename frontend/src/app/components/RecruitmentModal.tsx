@@ -248,7 +248,7 @@ export default function RecruitmentModal({ open, onClose }: RecruitmentModalProp
         role="dialog"
         aria-modal="true"
         aria-labelledby={titleId}
-        className="relative w-full max-w-[1000px] max-h-[90vh] bg-white rounded-2xl shadow-2xl border border-[#E3D9F7] flex flex-col overflow-hidden"
+        className="relative w-full max-w-[1000px] max-h-[90dvh] bg-white rounded-2xl shadow-2xl border border-[#E3D9F7] flex flex-col overflow-hidden"
       >
         {/* Header */}
         <div className="relative flex-shrink-0 bg-gradient-to-br from-[#421855] to-[#6633CC] px-5 py-6 sm:px-8 sm:py-8">
@@ -293,7 +293,7 @@ export default function RecruitmentModal({ open, onClose }: RecruitmentModalProp
         <div className="flex-1 min-h-0 overflow-hidden flex flex-col">
           {!selectedJob ? (
             /* Job selection screen */
-            <div className="flex-1 min-h-0 overflow-y-auto px-5 py-5 sm:px-8 sm:py-6">
+            <div className="flex-1 min-h-0 overflow-y-auto [-webkit-overflow-scrolling:touch] px-5 py-5 sm:px-8 sm:py-6">
               <div key="selection" className="animate-fadeIn grid grid-cols-1 md:grid-cols-3 gap-4">
                 {jobOpenings.map((job, index) => (
                   <button
@@ -382,41 +382,71 @@ export default function RecruitmentModal({ open, onClose }: RecruitmentModalProp
                 <div
                   ref={detailScrollRef}
                   key={selectedJob.id}
-                  className="animate-fadeIn flex-1 min-h-0 overflow-y-auto px-5 sm:px-8 py-5 flex flex-col gap-5"
+                  className="animate-fadeIn flex-1 min-h-0 overflow-y-auto [-webkit-overflow-scrolling:touch] px-5 sm:px-8 py-5 flex flex-col gap-5"
                 >
                   <JobDetailBody job={selectedJob} />
-                </div>
 
-                {/* Compact previous/next controls (mobile only) */}
-                {prevJob && nextJob && (
-                  <div className="md:hidden flex-shrink-0 border-t border-[#E3D9F7] bg-[#FCF7FF] px-4 py-3 flex items-center justify-between gap-2">
-                    <button
-                      type="button"
-                      onClick={() => setSelectedJobId(prevJob.id)}
-                      aria-label={`View previous position: ${prevJob.title}`}
-                      className="flex items-center gap-1.5 text-[#6633CC] text-xs font-generalSans-semibold font-semibold px-2 py-1.5 focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#6633CC] rounded"
-                    >
-                      <ArrowIcon className="w-3.5 h-3.5 rotate-180 flex-shrink-0" />
-                      {prevJob.title}
-                    </button>
-                    <button
-                      type="button"
-                      onClick={() => setSelectedJobId(nextJob.id)}
-                      aria-label={`View next position: ${nextJob.title}`}
-                      className="flex items-center gap-1.5 text-[#6633CC] text-xs font-generalSans-semibold font-semibold px-2 py-1.5 focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#6633CC] rounded"
-                    >
-                      {nextJob.title}
-                      <ArrowIcon className="w-3.5 h-3.5 flex-shrink-0" />
-                    </button>
+                  {/* Mobile only: the application footer normally lives outside the scroll
+                      area (see below), but on mobile there's no room for it to stay fixed
+                      without clipping the job content, so it scrolls inline here instead. */}
+                  <div className="md:hidden flex flex-col gap-1 pt-4 border-t border-[#E3D9F7]">
+                    <p className="text-[#421855] text-sm leading-relaxed text-center">
+                      Interested candidates are invited to submit their resume and cover
+                      letter to{" "}
+                      <a
+                        href={mailtoFor("Open Position")}
+                        className="font-generalSans-semibold font-semibold text-[#6633CC] hover:underline"
+                      >
+                        {recruitmentConfig.applicationEmail}
+                      </a>
+                      .
+                    </p>
+                    <p className="text-[#421855] text-sm text-center font-generalSans-semibold font-semibold">
+                      Application Deadline: {formatDeadline()}
+                    </p>
+                    <p className="text-[#7A6E8F] text-xs text-center">
+                      Only shortlisted candidates will be contacted for an interview.
+                    </p>
                   </div>
-                )}
+
+                  {/* Mobile only: previous/next, likewise moved inline after Apply Now
+                      instead of pinned to the bottom of the viewport. */}
+                  {prevJob && nextJob && (
+                    <div className="md:hidden flex items-center justify-between gap-2 pt-4 border-t border-[#E3D9F7]">
+                      <button
+                        type="button"
+                        onClick={() => setSelectedJobId(prevJob.id)}
+                        aria-label={`View previous position: ${prevJob.title}`}
+                        className="flex items-center gap-1.5 text-[#6633CC] text-xs font-generalSans-semibold font-semibold px-2 py-1.5 focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#6633CC] rounded"
+                      >
+                        <ArrowIcon className="w-3.5 h-3.5 rotate-180 flex-shrink-0" />
+                        {prevJob.title}
+                      </button>
+                      <button
+                        type="button"
+                        onClick={() => setSelectedJobId(nextJob.id)}
+                        aria-label={`View next position: ${nextJob.title}`}
+                        className="flex items-center gap-1.5 text-[#6633CC] text-xs font-generalSans-semibold font-semibold px-2 py-1.5 focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#6633CC] rounded"
+                      >
+                        {nextJob.title}
+                        <ArrowIcon className="w-3.5 h-3.5 flex-shrink-0" />
+                      </button>
+                    </div>
+                  )}
+                </div>
               </div>
             </div>
           )}
         </div>
 
-        {/* Footer with application details */}
-        <div className="flex-shrink-0 border-t border-[#E3D9F7] bg-[#FCF7FF] px-5 py-4 sm:px-8 sm:py-5">
+        {/* Footer with application details. On mobile, once a job is selected this
+            same information already scrolls into view inline at the end of the job
+            content, so the fixed footer steps aside to leave room for the content. */}
+        <div
+          className={`flex-shrink-0 border-t border-[#E3D9F7] bg-[#FCF7FF] px-5 py-4 sm:px-8 sm:py-5 ${
+            selectedJob ? "hidden md:block" : ""
+          }`}
+        >
           <p className="text-[#421855] text-xs sm:text-sm leading-relaxed text-center">
             Interested candidates are invited to submit their resume and cover letter to{" "}
             <a
