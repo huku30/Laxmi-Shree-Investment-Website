@@ -65,6 +65,10 @@
     {
       "name": "Siddha Bhoomi Retreat",
       "path": "/carousel/siddhabhoomi.png"
+    },
+    {
+      "name": "OmPower Hydropower",
+      "path": "/carousel/ompower.png"
     }
   ]
 }

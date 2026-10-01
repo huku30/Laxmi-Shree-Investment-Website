@@ -129,6 +129,13 @@ const investments = [
     readMoreUrl: "https://www.aagantukresort.com/",
     pdfFileName: "aagantuk-resort.pdf"
 
+  },
+    {
+    logoUrl: "Invested_Company_Logo/ompower.png",
+    companyName: "Ompower",
+    description: "Providing reliable and affordable car servicing solutions that ensure vehicle safety, optimal performance, and long-term customer trust.",
+    readMoreUrl: "#",
+    pdfFileName: "ompower.pdf"
   }
 
 ];

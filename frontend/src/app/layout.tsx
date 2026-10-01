@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Script from "next/script";
 import RecruitmentPopup from "./components/RecruitmentPopup";
+import AnnouncementPopup from "./components/AnnouncementPopup";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -120,6 +121,7 @@ export default function RootLayout({
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-background`}>
         <main>{children}</main>
         <RecruitmentPopup />
+        <AnnouncementPopup />
 
         {/* Google Analytics - Add your GA4 tracking ID */}
         {/* <Script
